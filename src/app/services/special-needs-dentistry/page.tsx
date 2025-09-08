@@ -332,7 +332,7 @@ export default function SpecialNeedsDentistryPage() {
             <Link href="/contact" className="btn bg-white text-teal-600 hover:bg-gray-100 btn-lg">
               Schedule Consultation
             </Link>
-            <Link href="/about" className="btn btn-outline border-white text-white hover:bg-white hover:text-teal-600 btn-lg">
+            <Link href="/about" className="btn border-2 border-white text-white hover:bg-white hover:text-teal-600 btn-lg bg-transparent">
               Learn more about Dr. Vaughan
             </Link>
           </div>
