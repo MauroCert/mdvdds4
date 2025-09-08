@@ -242,7 +242,7 @@ export default function ServicesPage() {
             <Link href="/contact" className="btn bg-white text-teal-600 hover:bg-gray-100 btn-lg">
               Schedule Your Consultation
             </Link>
-            <Link href="tel:+16159156090" className="btn btn-outline border-white text-white hover:bg-white hover:text-teal-600 btn-lg">
+            <Link href="tel:+16159156090" className="btn border-2 border-white text-white hover:bg-white hover:text-teal-600 btn-lg bg-transparent">
               Call Us at (615) 915-6090
             </Link>
           </div>

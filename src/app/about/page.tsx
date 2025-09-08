@@ -218,7 +218,7 @@ export default function AboutPage() {
             <Link href="/contact" className="btn bg-white text-teal-600 hover:bg-gray-100 btn-lg">
               Contact Us Today
             </Link>
-            <Link href="/services/special-needs-dentistry" className="btn btn-outline border-white text-white hover:bg-white hover:text-teal-600 btn-lg">
+            <Link href="/services/special-needs-dentistry" className="btn border-2 border-white text-white hover:bg-white hover:text-teal-600 btn-lg bg-transparent">
               Learn About Special Needs Care
             </Link>
           </div>
