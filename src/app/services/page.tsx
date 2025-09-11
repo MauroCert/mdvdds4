@@ -26,45 +26,34 @@ const services = [
     description: "Comprehensive dental examinations and professional cleanings in an accessible environment designed to accommodate patients with special needs and sensory sensitivities.",
     image: "/Details/_DSC4075.JPG",
     href: "/services/dental-exams-cleanings",
+    featured: true,
   },
   {
     title: "Root Canals",
     description: "Endodontic treatment to save infected or severely damaged teeth, performed with specialized techniques for patients with special needs and sedation options available.",
     image: "/Details/_DSC4081.JPG",
     href: "/services/root-canals",
+    featured: true,
   },
   {
     title: "Dentures",
     description: "Complete and partial dentures designed and fitted with extra care for patients with special needs, ensuring proper fit and comfort for enhanced quality of life.",
     image: "/Interactions/_DSC4116.JPG",
     href: "/services/dentures",
+    featured: true,
   },
   {
     title: "Extractions",
     description: "Tooth extractions performed with specialized techniques and sedation options to ensure patient comfort, particularly for those with dental anxiety or special needs.",
     image: "/Details/_DSC4072.JPG",
     href: "/services/extractions",
+    featured: true,
   },
 ];
 
 export default function ServicesPage() {
   return (
     <div className="bg-white">
-      {/* Hero Section */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-white">
-        <div className="container-padding">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">Our Services</h1>
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Comprehensive dental care specializing in special needs dentistry and sedation options
-            </p>
-            <Link href="/contact" className="btn btn-primary btn-lg">
-              Schedule a Consultation
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Featured Services */}
       <section className="section-padding">
         <div className="container-padding">
@@ -105,44 +94,6 @@ export default function ServicesPage() {
                   </div>
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* All Services Grid */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-padding">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Complete Dental Care</h2>
-            <p className="text-xl text-gray-600">All services provided in a comfortable, accessible environment</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service) => (
-              <Link key={service.title} href={service.href} className="card card-hover group">
-                <div className="relative h-48 overflow-hidden rounded-t-lg">
-                  <Image
-                    src={service.image}
-                    alt={service.title}
-                    width={400}
-                    height={200}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-teal-600 transition-colors">
-                    {service.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed line-clamp-3">
-                    {service.description}
-                  </p>
-                  <div className="flex items-center text-teal-600 font-medium">
-                    Learn More
-                    <ArrowRightIcon className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                  </div>
-                </div>
-              </Link>
             ))}
           </div>
         </div>
@@ -211,43 +162,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="section-padding bg-teal-600 text-white">
-        <div className="container-padding text-center">
-          <h2 className="text-4xl font-bold mb-6">How Can We Help?</h2>
-          <p className="text-xl text-teal-100 mb-8 max-w-3xl mx-auto">
-            Our patients are celebrities in our office. As a caring team, we always go the extra mile to ensure 
-            you feel comfortable and achieve your goals.
-          </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
-            {[
-              "One-on-one time with Dr. Vaughan",
-              "Specialist care from a trained professional",
-              "Open and transparent communication",
-              "Online patient forms",
-              "Help with insurance and payment plans",
-              "Sedation dentistry options"
-            ].map((feature, index) => (
-              <div key={index} className="flex items-center text-left">
-                <svg className="w-5 h-5 text-teal-200 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                </svg>
-                <span className="text-teal-100">{feature}</span>
-              </div>
-            ))}
-          </div>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="btn bg-white text-teal-600 hover:bg-gray-100 btn-lg">
-              Schedule Your Consultation
-            </Link>
-            <Link href="tel:+16159156090" className="btn border-2 border-white text-white hover:bg-white hover:text-teal-600 btn-lg bg-transparent">
-              Call Us at (615) 915-6090
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

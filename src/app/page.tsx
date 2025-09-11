@@ -1,5 +1,45 @@
 import Image from "next/image";
 import Link from "next/link";
+import { AcademicCapIcon, ShieldCheckIcon, HeartIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
+
+const services = [
+  {
+    title: "Special Needs Dentistry",
+    description: "Specialized dental care for patients with neurodivergence, intellectual disabilities, physical challenges, and dental anxiety. One of only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options.",
+    image: "/Interactions/_DSC4143.JPG",
+    href: "/services/special-needs-dentistry",
+  },
+  {
+    title: "Sedation Dentistry",
+    description: "Safe and effective sedation options including oral sedation, nitrous oxide, and IV sedation to help patients with anxiety receive dental care in a comfortable, relaxed state.",
+    image: "/Interactions/_DSC4127.JPG",
+    href: "/services/sedation-dentistry",
+  },
+  {
+    title: "Dental Exams & Cleanings",
+    description: "Comprehensive dental examinations and professional cleanings in an accessible environment designed to accommodate patients with special needs and sensory sensitivities.",
+    image: "/Details/_DSC4075.JPG",
+    href: "/services/dental-exams-cleanings",
+  },
+  {
+    title: "Root Canals",
+    description: "Endodontic treatment to save infected or severely damaged teeth, performed with specialized techniques for patients with special needs and sedation options available.",
+    image: "/Details/_DSC4081.JPG",
+    href: "/services/root-canals",
+  },
+  {
+    title: "Dentures",
+    description: "Complete and partial dentures designed and fitted with extra care for patients with special needs, ensuring proper fit and comfort for enhanced quality of life.",
+    image: "/Interactions/_DSC4116.JPG",
+    href: "/services/dentures",
+  },
+  {
+    title: "Extractions",
+    description: "Tooth extractions performed with specialized techniques and sedation options to ensure patient comfort, particularly for those with dental anxiety or special needs.",
+    image: "/Details/_DSC4072.JPG",
+    href: "/services/extractions",
+  },
+];
 
 export default function Home() {
   return (
@@ -54,7 +94,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
             <Image
-                src="/Interactions/_DSC4143.JPG"
+                src="/Interactions/_DSC4016.JPG"
                 alt="Dr. Vaughan with patient"
                 width={500}
                 height={400}
@@ -93,25 +133,34 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-soft text-center">
+              <div className="flex justify-center mb-4">
+                <AcademicCapIcon className="h-12 w-12 text-accent-600" />
+              </div>
               <h3 className="text-xl font-medium text-primary-900 mb-4">Master at His Craft</h3>
               <p className="text-primary-600 leading-relaxed">
-                Dr. Vaughan continues to further his knowledge by attending the latest courses in special needs dentistry. 
+                Dr. Vaughan continues to further his knowledge by attending the latest courses in special needs dentistry.
                 His many years of experience combined with modern technology allows for superior outcomes.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-soft text-center">
+              <div className="flex justify-center mb-4">
+                <ShieldCheckIcon className="h-12 w-12 text-accent-600" />
+              </div>
               <h3 className="text-xl font-medium text-primary-900 mb-4">Fearless Procedures</h3>
               <p className="text-primary-600 leading-relaxed">
-                We know visiting a dental specialist can seem daunting. With Dr. Vaughan, you don&apos;t need to worry. 
+                We know visiting a dental specialist can seem daunting. With Dr. Vaughan, you don&apos;t need to worry.
                 He will warmly welcome you, ensure you feel comfortable, and offer various sedation methods if needed.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-soft text-center">
+              <div className="flex justify-center mb-4">
+                <HeartIcon className="h-12 w-12 text-accent-600" />
+              </div>
               <h3 className="text-xl font-medium text-primary-900 mb-4">All About You</h3>
               <p className="text-primary-600 leading-relaxed">
-                When you visit our practice, we truly value and respect you. After meeting with Dr. Vaughan and 
+                When you visit our practice, we truly value and respect you. After meeting with Dr. Vaughan and
                 assessing your individual needs, we will discuss treatment options that best fit you and your comfort level.
               </p>
             </div>
@@ -119,27 +168,41 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Menu */}
-      <section className="py-16 lg:py-24">
+      {/* Our Dental Services */}
+      <section className="py-16 lg:py-24 bg-neutral-50">
         <div className="container-padding">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-medium text-primary-900 mb-4">Our Services Menu</h2>
+            <h2 className="text-3xl lg:text-4xl font-medium text-primary-900 mb-4">Our Dental Services</h2>
+            <p className="text-lg text-primary-600 max-w-3xl mx-auto">
+              All services provided in a comfortable, accessible environment
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              "Special Needs Dentistry",
-              "Sedation Dentistry", 
-              "Dental Exams & Cleanings",
-              "Root Canals",
-              "Dentures",
-              "Extractions",
-            ].map((service, index) => (
-              <div key={index} className="text-left">
-                <span className="text-primary-600 hover:text-accent-600 transition-colors cursor-pointer">
-                  • {service}
-                </span>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.map((service) => (
+              <Link key={service.title} href={service.href} className="card card-hover group">
+                <div className="relative h-48 overflow-hidden rounded-t-lg">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    width={400}
+                    height={200}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-primary-900 mb-3 group-hover:text-accent-600 transition-colors">
+                    {service.title}
+                  </h3>
+                  <p className="text-primary-600 mb-4 leading-relaxed line-clamp-3">
+                    {service.description}
+                  </p>
+                  <div className="flex items-center text-accent-600 font-medium">
+                    Learn More
+                    <ArrowRightIcon className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -148,6 +211,13 @@ export default function Home() {
       {/* Patient Testimonials */}
       <section className="py-16 lg:py-24 bg-neutral-50">
         <div className="container-padding">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-medium text-primary-900 mb-4">Patient Testimonials</h2>
+            <p className="text-lg text-primary-600 max-w-3xl mx-auto">
+              Hear from our patients about their experiences with compassionate, specialized care.
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
@@ -170,6 +240,87 @@ export default function Home() {
                 <p className="font-medium text-primary-900">{testimonial.name}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Dr. Vaughan */}
+      <section className="py-16 lg:py-24">
+        <div className="container-padding">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="relative">
+              <Image
+                src="/Headshots/e3_DSC4189.JPG"
+                alt="Dr. Michael D. Vaughan"
+                width={500}
+                height={600}
+                className="w-full h-96 object-cover object-top rounded-lg shadow-soft"
+              />
+            </div>
+            <div className="space-y-6">
+              <h2 className="text-3xl lg:text-4xl font-medium text-primary-900 leading-tight">
+                Meet Dr. Michael D. Vaughan
+              </h2>
+              <p className="text-lg text-accent-600 font-medium">
+                Your specialist in Nashville, TN
+              </p>
+              <p className="text-primary-600 leading-relaxed">
+                Dr. Michael D. Vaughan is a highly experienced dentist specializing in special needs dentistry and sedation dentistry.
+                With years of dedicated practice in Nashville, Tennessee, Dr. Vaughan has earned a reputation for providing
+                compassionate, professional care to patients of all ages and abilities.
+              </p>
+              <p className="text-primary-600 leading-relaxed">
+                His commitment to continuing education ensures that he stays at the forefront of modern dental techniques
+                and technologies. Dr. Vaughan believes in treating each patient as an individual, taking the time to understand
+                their unique needs and concerns to provide the best possible dental care experience.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <Link href="/about" className="btn bg-accent-600 text-white hover:bg-accent-700 border-accent-600 btn-hero">
+                  LEARN MORE ABOUT DR. VAUGHAN
+                </Link>
+                <Link href="/services" className="btn bg-secondary-600 text-white hover:bg-secondary-700 border-secondary-600 btn-hero">
+                  OUR SERVICES
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How Can We Help? */}
+      <section className="py-16 lg:py-24 bg-accent-600 text-white">
+        <div className="container-padding text-center">
+          <h2 className="text-3xl lg:text-4xl font-medium mb-6 text-white">How Can We Help?</h2>
+          <p className="text-lg text-accent-100 mb-8 max-w-3xl mx-auto">
+            Our patients are celebrities in our office. As a caring team, we always go the extra mile to ensure
+            you feel comfortable and achieve your goals.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
+            {[
+              "One-on-one time with Dr. Vaughan",
+              "Specialist care from a trained professional",
+              "Open and transparent communication",
+              "Online patient forms",
+              "Help with insurance and payment plans",
+              "Sedation dentistry options"
+            ].map((feature, index) => (
+              <div key={index} className="flex items-center text-left">
+                <svg className="w-5 h-5 text-accent-200 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-accent-100">{feature}</span>
+              </div>
+            ))}
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact" className="btn bg-white text-accent-600 hover:bg-gray-100 btn-lg">
+              Schedule Your Consultation
+            </Link>
+            <Link href="tel:+16159156090" className="btn border-2 border-white text-white hover:bg-white hover:text-accent-600 btn-lg bg-transparent">
+              Call Us at (615) 915-6090
+            </Link>
           </div>
         </div>
       </section>
