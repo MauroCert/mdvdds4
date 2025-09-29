@@ -6,37 +6,37 @@ const services = [
   {
     title: "Special Needs Dentistry",
     description: "Specialized dental care for patients with neurodivergence, intellectual disabilities, physical challenges, and dental anxiety. One of only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options.",
-    image: "/Interactions/_DSC4143.JPG",
+    image: "/services_pictures/Special needs dentistry .jpg",
     href: "/services/special-needs-dentistry",
   },
   {
     title: "Sedation Dentistry",
     description: "Safe and effective sedation options including oral sedation, nitrous oxide, and IV sedation to help patients with anxiety receive dental care in a comfortable, relaxed state.",
-    image: "/Interactions/_DSC4127.JPG",
+    image: "/services_pictures/Sedation Dentistry.jpg",
     href: "/services/sedation-dentistry",
   },
   {
     title: "Dental Exams & Cleanings",
     description: "Comprehensive dental examinations and professional cleanings in an accessible environment designed to accommodate patients with special needs and sensory sensitivities.",
-    image: "/Details/_DSC4075.JPG",
+    image: "/services_pictures/Dental exams and Cleanings.jpg",
     href: "/services/dental-exams-cleanings",
   },
   {
     title: "Root Canals",
     description: "Endodontic treatment to save infected or severely damaged teeth, performed with specialized techniques for patients with special needs and sedation options available.",
-    image: "/Details/_DSC4081.JPG",
+    image: "/services_pictures/Root canals.jpg",
     href: "/services/root-canals",
   },
   {
     title: "Dentures",
     description: "Complete and partial dentures designed and fitted with extra care for patients with special needs, ensuring proper fit and comfort for enhanced quality of life.",
-    image: "/Interactions/_DSC4116.JPG",
+    image: "/services_pictures/Dentures.jpg",
     href: "/services/dentures",
   },
   {
     title: "Extractions",
     description: "Tooth extractions performed with specialized techniques and sedation options to ensure patient comfort, particularly for those with dental anxiety or special needs.",
-    image: "/Details/_DSC4072.JPG",
+    image: "/services_pictures/dental extractions.jpg",
     href: "/services/extractions",
   },
 ];
@@ -49,7 +49,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0">
         <Image
-            src="/Interactions/_DSC4143.JPG"
+            src="/Interactions/_DSC3997.JPG"
             alt="Dr. Vaughan in modern dental office"
             fill
             className="object-cover"
@@ -182,7 +182,7 @@ export default function Home() {
             {services.map((service) => (
               <Link key={service.title} href={service.href} className="card card-hover group">
                 <div className="relative h-48 overflow-hidden rounded-t-lg">
-                  <Image
+          <Image
                     src={service.image}
                     alt={service.title}
                     width={400}
@@ -241,6 +241,21 @@ export default function Home() {
               </div>
             ))}
           </div>
+
+          {/* Google Reviews CTA */}
+          <div className="mt-12 text-center">
+            <Link
+              href="https://maps.app.goo.gl/cvtEg7mzaQr3mq6M7"
+          target="_blank"
+          rel="noopener noreferrer"
+              className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-colors"
+            >
+              <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+              </svg>
+              Read More Reviews on Google
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -249,7 +264,7 @@ export default function Home() {
         <div className="container-padding">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative">
-              <Image
+          <Image
                 src="/Headshots/e3_DSC4189.JPG"
                 alt="Dr. Michael D. Vaughan"
                 width={500}
