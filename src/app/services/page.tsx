@@ -100,7 +100,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Patient Information */}
-      <section className="section-padding">
+      <section className="py-16">
         <div className="container-padding">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Patient Information</h2>

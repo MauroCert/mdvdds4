@@ -269,7 +269,7 @@ export default function Home() {
                 alt="Dr. Michael D. Vaughan"
                 width={500}
                 height={600}
-                className="w-full h-96 object-cover object-top rounded-lg shadow-soft"
+                className="w-full h-96 object-cover object-[50%_18%] rounded-lg shadow-soft"
               />
             </div>
             <div className="space-y-6">
