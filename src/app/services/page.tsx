@@ -162,6 +162,46 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Services Grid */}
+      <section className="py-16 lg:py-24 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl lg:text-4xl font-medium text-gray-900 mb-4">Our Dental Services</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Comprehensive dental care tailored to meet your unique needs, from special needs dentistry to sedation options and general dental services.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.map((service) => (
+              <Link key={service.title} href={service.href} className="card card-hover group bg-white rounded-lg shadow-soft overflow-hidden">
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    width={400}
+                    height={200}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-teal-600 transition-colors">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed line-clamp-3">
+                    {service.description}
+                  </p>
+                  <div className="flex items-center text-teal-600 font-medium">
+                    Learn More
+                    <ArrowRightIcon className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }
