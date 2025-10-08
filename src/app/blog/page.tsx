@@ -71,14 +71,14 @@ export default function BlogPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative py-20 bg-primary-800 text-white">
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
         <div className="relative max-w-7xl mx-auto px-4 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-normal mb-6">
+            <h1 className="text-4xl lg:text-5xl font-semibold mb-6 text-white">
               Dental Health Blog
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-white font-medium max-w-3xl mx-auto">
               Expert insights, tips, and educational content about special needs dentistry, sedation options, and maintaining optimal oral health for all patients.
             </p>
           </div>
@@ -193,7 +193,7 @@ export default function BlogPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
               Stay Updated with Our Latest Articles
             </h2>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+            <p className="text-lg text-accent-600 font-medium mb-6 max-w-2xl mx-auto">
               Subscribe to our newsletter to receive the latest articles, tips, and insights about special needs dentistry,
               sedation options, and maintaining optimal oral health for all patients.
             </p>
@@ -217,7 +217,7 @@ export default function BlogPage() {
           <h2 className="text-3xl font-medium text-gray-900 mb-6">
             Need Personalized Dental Care?
           </h2>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-accent-600 font-medium mb-8">
             Our experienced team specializes in providing compassionate, specialized dental care for patients
             with special needs, dental anxiety, and unique requirements.
           </p>

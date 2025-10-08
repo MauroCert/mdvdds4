@@ -12,7 +12,7 @@ export default function DenturesPage() {
             <h1 className="text-4xl lg:text-5xl font-normal mb-6">
               Dentures
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-slate-200 font-medium max-w-3xl mx-auto">
               Complete and partial dentures designed and fitted with extra care for patients with special needs, ensuring proper fit and comfort for enhanced quality of life.
             </p>
           </div>
@@ -29,7 +29,7 @@ export default function DenturesPage() {
                 <h2 className="text-3xl font-medium text-gray-900 mb-6">
                   Restoring Your Smile with Custom Dentures
                 </h2>
-                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                <p className="text-lg text-accent-600 font-medium mb-6">
                   Dentures are removable replacements for missing teeth and surrounding tissues. Our practice
                   specializes in creating complete and partial dentures that are designed and fitted with extra
                   care, especially for patients with special needs.

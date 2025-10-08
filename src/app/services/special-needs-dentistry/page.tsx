@@ -79,7 +79,7 @@ export default function SpecialNeedsDentistryPage() {
               <h1 className="text-5xl font-bold text-gray-900 mb-6">
                 Special Needs Dentistry
               </h1>
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+              <p className="text-lg text-accent-600 font-medium mb-8">
                 We understand the unique needs of patients and we have the ability to accommodate those needs.
                 Our practice delivers outstanding oral health services to patients with special needs and specializes
                 in caring for individuals with intellectual and developmental disabilities.
@@ -136,7 +136,7 @@ export default function SpecialNeedsDentistryPage() {
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
               Our Commitment to Special Needs Care
             </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg text-accent-600 font-medium max-w-4xl mx-auto">
               We are proud of our reputation as a dental home for patients with special needs.
               We believe all individuals deserve the same standards of oral health care, which is why
               our dedicated staff are trained to safely manage cases that are not typical to general dentistry.
@@ -201,7 +201,7 @@ export default function SpecialNeedsDentistryPage() {
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
               Who We Serve
             </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg text-accent-600 font-medium max-w-4xl mx-auto">
               Our practice is designed to accommodate and care for patients with various special needs,
               providing personalized treatment plans and specialized accommodations.
             </p>
@@ -263,7 +263,7 @@ export default function SpecialNeedsDentistryPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
                 What We Can Offer Patients with Special Needs
               </h2>
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+              <p className="text-lg text-accent-600 font-medium mb-8">
                 Our comprehensive approach ensures that every patient receives the highest quality
                 dental care in a comfortable, safe, and accommodating environment.
               </p>
@@ -278,7 +278,7 @@ export default function SpecialNeedsDentistryPage() {
               </ul>
 
               <Link href="/contact" className="btn btn-primary btn-lg">
-                Schedule a Consultation
+                Request a Consultation
                 <ArrowRightIcon className="ml-2 h-5 w-5" />
               </Link>
             </div>

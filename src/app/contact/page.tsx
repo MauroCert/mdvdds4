@@ -5,14 +5,14 @@ export default function ContactPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative py-20 bg-primary-800 text-white">
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
         <div className="relative max-w-7xl mx-auto px-4 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-normal mb-6">
+            <h1 className="text-4xl lg:text-5xl font-semibold mb-6 text-white">
               Contact Us
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-white font-medium max-w-3xl mx-auto">
               Ready to schedule your appointment or have questions about our services? We&apos;re here to help you get the specialized dental care you deserve.
             </p>
           </div>
@@ -230,7 +230,7 @@ export default function ContactPage() {
             <h2 className="text-3xl font-medium text-gray-900 mb-4">
               Visit Our Office
             </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg text-accent-600 font-medium max-w-3xl mx-auto">
               Located in Harding Office Plaza, just off of Harding Place, between I-65 and I-24.
               We provide a comfortable, accessible environment for all our patients.
             </p>
@@ -257,8 +257,8 @@ export default function ContactPage() {
           <h2 className="text-3xl font-medium mb-6">
             Ready to Schedule Your Appointment?
           </h2>
-          <p className="text-lg text-teal-100 mb-8 max-w-2xl mx-auto">
-            Don&apos;t wait to get the specialized dental care you need. Contact us today to schedule your consultation
+          <p className="text-lg text-teal-100 font-medium mb-8 max-w-2xl mx-auto">
+            Don&apos;t wait to get the specialized dental care you need. Contact us today to Request a Consultation
             and experience the difference compassionate, expert care can make.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

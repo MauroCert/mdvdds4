@@ -9,8 +9,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h3 className="text-white font-light text-xl mb-6">Michael D. Vaughan, DDS</h3>
             <p className="text-gray-400 mb-6 font-light leading-relaxed">
-              Specialized dental care for patients with special needs, neurodivergence, and dental anxiety. 
-              One of only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options.
+              Specialized dental care for patients with special needs, neurodivergence, and dental anxiety.
             </p>
             <div className="space-y-2 text-sm">
               <div>

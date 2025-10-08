@@ -12,7 +12,7 @@ export default function DentalExamsCleaningsPage() {
             <h1 className="text-4xl lg:text-5xl font-normal mb-6">
               Dental Exams & Cleanings
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-slate-200 font-medium max-w-3xl mx-auto">
               Comprehensive dental examinations and professional cleanings in an accessible environment designed to accommodate patients with special needs and sensory sensitivities.
             </p>
           </div>
@@ -29,7 +29,7 @@ export default function DentalExamsCleaningsPage() {
                 <h2 className="text-3xl font-medium text-gray-900 mb-6">
                   Comprehensive Preventive Care
                 </h2>
-                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                <p className="text-lg text-accent-600 font-medium mb-6">
                   Regular dental exams and cleanings are essential for maintaining optimal oral health.
                   Our practice provides comprehensive dental examinations and professional cleanings in an
                   accessible environment designed to accommodate patients with special needs and sensory sensitivities.

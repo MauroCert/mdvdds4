@@ -12,7 +12,7 @@ export default function ExtractionsPage() {
             <h1 className="text-4xl lg:text-5xl font-normal mb-6">
               Extractions
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-slate-200 font-medium max-w-3xl mx-auto">
               Tooth extractions performed with specialized techniques and sedation options to ensure patient comfort, particularly for those with dental anxiety or special needs.
             </p>
           </div>
@@ -29,7 +29,7 @@ export default function ExtractionsPage() {
                 <h2 className="text-3xl font-medium text-gray-900 mb-6">
                   Gentle and Compassionate Tooth Removal
                 </h2>
-                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                <p className="text-lg text-accent-600 font-medium mb-6">
                   Tooth extraction is sometimes necessary when a tooth is too damaged to be saved or when
                   it poses a risk to your overall oral health. Our practice specializes in performing
                   extractions with the utmost care and comfort, especially for patients with special needs.

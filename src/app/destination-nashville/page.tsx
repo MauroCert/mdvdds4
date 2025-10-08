@@ -6,16 +6,30 @@ export default function DestinationNashvillePage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative max-w-7xl mx-auto px-4 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-normal mb-6">
-              Destination Nashville
-            </h1>
-            <p className="text-xl text-slate-200 max-w-4xl mx-auto">
-              Combine world-class dental care with an unforgettable vacation in Music City. Experience stress-free dentistry while creating lasting memories in Nashville.
-            </p>
+      <section className="relative min-h-[70vh] flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/Interactions/_DSC4003.JPG"
+            alt="Welcome to Nashville - Dental Care"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40"></div>
+        </div>
+        
+        {/* Content Overlay */}
+        <div className="relative z-10 container-padding w-full">
+          <div className="max-w-7xl mx-auto px-4 lg:px-8">
+            <div className="text-center">
+              <h1 className="text-4xl lg:text-5xl font-semibold mb-6 text-white">
+                Destination Nashville
+              </h1>
+              <p className="text-lg text-white font-medium max-w-4xl mx-auto">
+                Combine world-class dental care with an unforgettable vacation in Music City. Experience stress-free dentistry while creating lasting memories in Nashville.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -57,8 +71,8 @@ export default function DestinationNashvillePage() {
             </div>
             <div className="relative">
               <Image
-                src="/Details/_DSC4063.JPG"
-                alt="Nashville skyline and dental office"
+                src="/Interactions/_DSC4142.JPG"
+                alt="Comfortable dental experience at our Nashville office"
                 width={600}
                 height={400}
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
@@ -151,41 +165,12 @@ export default function DestinationNashvillePage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/Details/_DSC4016.JPG"
+                  src="/Interactions/_DSC4016.JPG"
                   alt="Patient receiving sedation dentistry"
                   width={500}
                   height={400}
                   className="w-full h-96 object-cover rounded-lg shadow-lg"
                 />
-              </div>
-            </div>
-          </div>
-
-          {/* Travel Partner */}
-          <div className="mb-20 bg-gradient-to-r from-teal-50 to-blue-50 p-8 rounded-lg">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-medium text-gray-900 mb-4">
-                Meet Your Nashville Travel Expert
-              </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Carol Andrews is a native Nashvillian with deep knowledge of Music City and a passion for creating
-                memorable experiences for visitors with special needs.
-              </p>
-            </div>
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-              <div className="w-32 h-32 bg-gray-200 rounded-full flex items-center justify-center">
-                <span className="text-4xl text-gray-400">CA</span>
-              </div>
-              <div className="text-center md:text-left">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Carol Andrews</h3>
-                <p className="text-gray-600 mb-4">
-                  Native Nashvillian & Travel Specialist<br />
-                  Specializing in accessible and memorable Nashville experiences
-                </p>
-                <p className="text-gray-600">
-                  Carol works closely with each visitor to create customized itineraries that accommodate
-                  special needs while showcasing the best of Nashville&apos;s music, food, and culture.
-                </p>
               </div>
             </div>
           </div>
@@ -213,49 +198,6 @@ export default function DestinationNashvillePage() {
         </div>
       </section>
 
-      {/* Nashville Highlights */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl font-medium text-gray-900 mb-12 text-center">
-            Why Nashville? Why Now?
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Music City Magic</h3>
-              <p className="text-gray-600">
-                Experience live music venues, the Country Music Hall of Fame, and the vibrant energy of Nashville&apos;s music scene.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Southern Hospitality</h3>
-              <p className="text-gray-600">
-                Enjoy warm southern hospitality, delicious cuisine, and the welcoming atmosphere that makes Nashville special.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Specialized Care</h3>
-              <p className="text-gray-600">
-                Access world-class sedation dentistry and special needs care - one of only two practices in Middle Tennessee offering this expertise.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

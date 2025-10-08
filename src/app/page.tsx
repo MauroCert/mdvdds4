@@ -74,7 +74,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact" className="btn bg-accent-600 text-white hover:bg-accent-700 border-accent-600 btn-hero">
-                  SCHEDULE A CONSULTATION
+                  Request a Consultation
                 </Link>
                 <Link href="/services" className="btn bg-secondary-600 text-white hover:bg-secondary-700 border-secondary-600 btn-hero">
                   WHY CHOOSE US?
@@ -126,7 +126,7 @@ export default function Home() {
             <h2 className="text-3xl lg:text-4xl font-medium text-primary-900 mb-4">
               What Makes Our Practice Unique?
             </h2>
-            <p className="text-lg text-primary-600 max-w-3xl mx-auto">
+            <p className="text-lg text-accent-600 font-medium max-w-3xl mx-auto">
               We are professional, honest, and provide compassionate care.
             </p>
           </div>
@@ -136,7 +136,7 @@ export default function Home() {
               <div className="flex justify-center mb-4">
                 <AcademicCapIcon className="h-12 w-12 text-accent-600" />
               </div>
-              <h3 className="text-xl font-medium text-primary-900 mb-4">Master at His Craft</h3>
+              <h3 className="text-xl font-medium text-primary-900 mb-4">Excellence Through Experience</h3>
               <p className="text-primary-600 leading-relaxed">
                 Dr. Vaughan continues to further his knowledge by attending the latest courses in special needs dentistry.
                 His many years of experience combined with modern technology allows for superior outcomes.
@@ -173,7 +173,7 @@ export default function Home() {
         <div className="container-padding">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-medium text-primary-900 mb-4">Our Dental Services</h2>
-            <p className="text-lg text-primary-600 max-w-3xl mx-auto">
+            <p className="text-lg text-accent-600 font-medium max-w-3xl mx-auto">
               All services provided in a comfortable, accessible environment
             </p>
           </div>
@@ -213,7 +213,7 @@ export default function Home() {
         <div className="container-padding">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-medium text-primary-900 mb-4">Patient Testimonials</h2>
-            <p className="text-lg text-primary-600 max-w-3xl mx-auto">
+            <p className="text-lg text-accent-600 font-medium max-w-3xl mx-auto">
               Hear from our patients about their experiences with compassionate, specialized care.
             </p>
           </div>
@@ -306,7 +306,7 @@ export default function Home() {
       <section className="py-16 lg:py-24 bg-accent-600 text-white">
         <div className="container-padding text-center">
           <h2 className="text-3xl lg:text-4xl font-medium mb-6 text-white">How Can We Help?</h2>
-          <p className="text-lg text-accent-100 mb-8 max-w-3xl mx-auto">
+          <p className="text-lg text-accent-100 font-medium mb-8 max-w-3xl mx-auto">
             Our patients are celebrities in our office. As a caring team, we always go the extra mile to ensure
             you feel comfortable and achieve your goals.
           </p>
@@ -331,7 +331,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="btn bg-white text-accent-600 hover:bg-gray-100 btn-lg">
-              Schedule Your Consultation
+              Request a Consultation
             </Link>
             <Link href="tel:+16159156090" className="btn border-2 border-white text-white hover:bg-white hover:text-accent-600 btn-lg bg-transparent">
               Call Us at (615) 915-6090
@@ -341,15 +341,24 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 lg:py-24 bg-primary-800 text-white">
+      <section className="py-12 lg:py-16 bg-primary-800 text-white">
         <div className="container-padding text-center">
-          <h2 className="text-3xl lg:text-4xl font-medium mb-6 text-white">Schedule Your Consultation</h2>
-          <p className="text-lg text-primary-200 mb-8 max-w-2xl mx-auto">
-            Please contact our office by either filling out the form below or by calling us at (615) 915-6090.
-          </p>
-          <Link href="/contact" className="btn bg-accent-600 text-white hover:bg-accent-700 btn-lg">
-            Schedule a Consultation
-          </Link>
+          <div className="flex flex-col items-center justify-center space-y-3">
+          <Image
+              src="/images/logo.png"
+              alt="Michael D. Vaughan DDS Logo"
+              width={200}
+              height={200}
+              className="brightness-0 invert"
+            />
+            <h2 className="text-3xl lg:text-4xl font-medium text-white -mt-1">Request a Consultation</h2>
+            <p className="text-lg text-primary-200 font-medium max-w-2xl mx-auto -mt-1">
+              Please contact our office by either filling out the form below or by calling us at (615) 915-6090.
+            </p>
+            <Link href="/contact" className="btn bg-accent-600 text-white hover:bg-accent-700 btn-lg mt-2">
+              Request a Consultation
+            </Link>
+          </div>
         </div>
       </section>
     </div>

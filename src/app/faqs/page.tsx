@@ -125,14 +125,14 @@ export default function FAQsPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative py-20 bg-primary-800 text-white">
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
         <div className="relative max-w-7xl mx-auto px-4 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-normal mb-6">
+            <h1 className="text-4xl lg:text-5xl font-semibold mb-6 text-white">
               Frequently Asked Questions
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-white font-medium max-w-3xl mx-auto">
               Find answers to common questions about our services, special needs dentistry, sedation options, and what to expect during your visit.
             </p>
           </div>
@@ -146,7 +146,7 @@ export default function FAQsPage() {
             <h2 className="text-3xl font-medium text-gray-900 mb-6">
               Get Your Questions Answered
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-accent-600 font-medium">
               We understand that visiting the dentist can raise many questions, especially when it comes to
               specialized care like special needs dentistry and sedation. Browse our comprehensive FAQ section
               or contact us directly if you don&apos;t find what you&apos;re looking for.
@@ -184,7 +184,7 @@ export default function FAQsPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
               Still Have Questions?
             </h2>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <p className="text-lg text-accent-600 font-medium mb-6">
               Our friendly and knowledgeable team is here to help answer any questions you may have.
               Don&apos;t hesitate to reach out - we&apos;re committed to making your dental experience as comfortable
               and stress-free as possible.

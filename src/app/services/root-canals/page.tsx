@@ -12,7 +12,7 @@ export default function RootCanalsPage() {
             <h1 className="text-4xl lg:text-5xl font-normal mb-6">
               Root Canals
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-slate-200 font-medium max-w-3xl mx-auto">
               Endodontic treatment to save infected or severely damaged teeth, performed with specialized techniques for patients with special needs and sedation options available.
             </p>
           </div>
@@ -29,7 +29,7 @@ export default function RootCanalsPage() {
                 <h2 className="text-3xl font-medium text-gray-900 mb-6">
                   Advanced Endodontic Care
                 </h2>
-                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                <p className="text-lg text-accent-600 font-medium mb-6">
                   Root canal therapy is a specialized dental procedure designed to save teeth that have been
                   compromised by infection or severe damage. Our practice offers comprehensive endodontic
                   treatment using modern techniques and technologies.

@@ -63,11 +63,21 @@ export default function Header() {
           <div className="flex h-12 items-center justify-between text-sm">
             <div className="flex items-center">
               <Link href="/contact" className="btn btn-topbar bg-primary-700 text-white hover:bg-primary-600 border-primary-700">
-                Schedule a Consultation
+                Request a Consultation
               </Link>
             </div>
-            <div className="flex items-center">
-              <Link href="/contact" className="btn btn-topbar bg-primary-700 text-white hover:bg-primary-600 border-primary-700">
+            <div className="flex items-center space-x-6">
+              <div className="hidden md:flex items-center space-x-6">
+                <div className="text-sm">
+                  <span className="text-white">330 Wallace Rd. #106, Nashville, TN 37211</span>
+                </div>
+                <div className="text-sm">
+                  <Link href="tel:+16159156090" className="text-white hover:text-accent-200">
+                    (615) 915-6090
+                  </Link>
+                </div>
+              </div>
+              <Link href="https://maps.app.goo.gl/cvtEg7mzaQr3mq6M7" target="_blank" rel="noopener noreferrer" className="btn btn-topbar bg-primary-700 text-white hover:bg-primary-600 border-primary-700">
                 <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>

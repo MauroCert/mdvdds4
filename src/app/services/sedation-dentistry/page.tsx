@@ -12,7 +12,7 @@ export default function SedationDentistryPage() {
             <h1 className="text-4xl lg:text-5xl font-normal mb-6">
               Sedation Dentistry
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-slate-200 font-medium max-w-3xl mx-auto">
               Safe and effective sedation options to help patients with anxiety receive dental care in a comfortable, relaxed state.
             </p>
           </div>
@@ -29,7 +29,7 @@ export default function SedationDentistryPage() {
                 <h2 className="text-3xl font-medium text-gray-900 mb-6">
                   Comfortable Dental Care for Anxious Patients
                 </h2>
-                <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                <p className="text-lg text-accent-600 font-medium mb-6">
                   Does the thought of going to the dentist make you feel anxious? We specialize in treating patients
                   who may require extra appointment time due to anxiety, phobia or treatment tolerance.
                 </p>

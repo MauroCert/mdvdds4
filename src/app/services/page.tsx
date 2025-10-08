@@ -59,7 +59,7 @@ export default function ServicesPage() {
         <div className="container-padding">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Specialties</h2>
-            <p className="text-xl text-gray-600">What makes our practice unique in Middle Tennessee</p>
+            <p className="text-lg text-accent-600 font-medium">What makes our practice unique in Middle Tennessee</p>
           </div>
 
           <div className="space-y-16">
@@ -167,7 +167,7 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-medium text-gray-900 mb-4">Our Dental Services</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg text-accent-600 font-medium max-w-3xl mx-auto">
               Comprehensive dental care tailored to meet your unique needs, from special needs dentistry to sedation options and general dental services.
             </p>
           </div>

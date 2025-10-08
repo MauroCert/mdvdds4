@@ -44,14 +44,14 @@ export default function PatientFormsPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative py-20 bg-primary-800 text-white">
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
         <div className="relative max-w-7xl mx-auto px-4 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-normal mb-6">
+            <h1 className="text-4xl lg:text-5xl font-semibold mb-6 text-white">
               Patient Forms
             </h1>
-            <p className="text-xl text-slate-200 max-w-3xl mx-auto">
+            <p className="text-lg text-white font-medium max-w-3xl mx-auto">
               Download and complete the necessary forms before your visit to help us provide you with the most efficient and personalized care possible.
             </p>
           </div>
@@ -66,7 +66,7 @@ export default function PatientFormsPage() {
               <h2 className="text-3xl font-medium text-gray-900 mb-6">
                 Prepare for Your Visit
               </h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
+              <p className="text-lg text-accent-600 font-medium">
                 To ensure we can provide you with the highest quality care, please download and complete the
                 appropriate forms before your appointment. This helps us understand your needs and prepare
                 for your visit. If you have any questions about which forms to complete, please don&apos;t hesitate
@@ -105,7 +105,7 @@ export default function PatientFormsPage() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">
                 Need Help Choosing Forms?
               </h2>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-lg text-accent-600 font-medium mb-6">
                 Not sure which forms you need to complete? Our team is here to help. Contact us and we&apos;ll guide
                 you through the process and answer any questions you may have.
               </p>

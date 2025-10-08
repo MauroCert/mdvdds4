@@ -15,7 +15,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold text-gray-900 mb-6">About Our Practice</h1>
-              <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+              <p className="text-lg text-accent-600 font-medium mb-8">
                 Excellence in Special Needs & Sedation Dentistry in the Nashville Area
               </p>
               <p className="text-gray-700 mb-8 leading-relaxed">
@@ -29,11 +29,11 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/Details/_DSC4072.JPG"
-                alt="Our dental office"
+                src="/Interactions/_DSC4128.JPG"
+                alt="Dr. Vaughan providing dental care"
                 width={600}
                 height={400}
-                className="w-full h-96 object-cover rounded-2xl shadow-2xl"
+                className="w-full h-96 object-cover rounded-2xl shadow-2xl relative -translate-x-32"
                 priority
               />
             </div>
@@ -46,7 +46,7 @@ export default function AboutPage() {
         <div className="container-padding">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our History</h2>
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-lg text-accent-600 font-medium">
               <strong>Michael D. Vaughan, DDS</strong> has provided the highest quality of Special Needs & Sedation Dentistry 
               care to patients in Nashville and surrounding communities. We pledge to offer procedures using the latest technology 
               in a safe, comfortable, and relaxed setting that is minimally invasive to our patients.
@@ -155,7 +155,7 @@ export default function AboutPage() {
         <div className="container-padding">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Commitment to Special Needs Care</h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-lg text-accent-600 font-medium max-w-4xl mx-auto">
               We are proud of our reputation as a dental home for patients with special needs. We believe all individuals 
               deserve the same standards of oral health care, which is why our dedicated staff are trained to safely manage 
               cases that are not typical to general dentistry.
@@ -207,14 +207,22 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-teal-600 text-white">
+      <section className="py-12 bg-teal-600 text-white">
         <div className="container-padding text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
-          <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
-            Would you like to know more about us or schedule an appointment? Contact us and we&apos;ll be in touch to discuss 
-            how we can meet your unique needs.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col items-center justify-center space-y-4">
+            <Image
+              src="/images/logo.png"
+              alt="Michael D. Vaughan DDS Logo"
+              width={180}
+              height={180}
+              className="brightness-0 invert"
+            />
+            <h2 className="text-4xl font-bold text-white">Ready to Get Started?</h2>
+            <p className="text-lg text-teal-100 font-medium max-w-2xl mx-auto">
+              Would you like to know more about us or schedule an appointment? Contact us and we&apos;ll be in touch to discuss 
+              how we can meet your unique needs.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="btn bg-white text-teal-600 hover:bg-gray-100 btn-lg">
               Contact Us Today
             </Link>
@@ -223,7 +231,8 @@ export default function AboutPage() {
             </Link>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+  </div>
   );
 }
