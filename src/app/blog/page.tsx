@@ -135,7 +135,7 @@ export default function BlogPage() {
                 </div>
                 <div className="relative">
                   <Image
-                    src="/Details/_DSC4016.JPG"
+                    src="/services_pictures/Special needs dentistry .jpg"
                     alt="Special needs dentistry patient care"
                     width={500}
                     height={300}
