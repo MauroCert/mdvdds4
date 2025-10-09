@@ -10,7 +10,7 @@ export default function AboutPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-white">
+      <section className="pt-20 pb-10 bg-gradient-to-br from-gray-50 to-white">
         <div className="container-padding">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -27,13 +27,13 @@ export default function AboutPage() {
                 Schedule Consultation
               </Link>
             </div>
-            <div className="relative">
+            <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <Image
                 src="/Interactions/_DSC4128.JPG"
                 alt="Dr. Vaughan providing dental care"
                 width={600}
                 height={400}
-                className="w-full h-96 object-cover rounded-2xl shadow-2xl relative -translate-x-32"
+                className="w-full h-96 object-cover object-[30%_center]"
                 priority
               />
             </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/Interactions/_DSC4127.JPG"
+                src="/Interactions/_DSC4059.JPG"
                 alt="Dr. Vaughan with patient"
                 width={500}
                 height={400}
@@ -98,13 +98,13 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left">
               <div className="relative inline-block mb-8">
-                <div className="w-80 h-80 mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-2xl">
+                <div className="w-full max-w-md mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-2xl">
                   <Image
                     src="/Headshots/e3_DSC4189.JPG"
                     alt="Dr. Michael D. Vaughan"
-                    width={320}
-                    height={320}
-                    className="w-full h-full object-cover object-top"
+                    width={500}
+                    height={600}
+                    className="w-full h-auto object-contain"
                   />
                 </div>
               </div>

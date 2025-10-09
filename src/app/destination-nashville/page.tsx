@@ -10,7 +10,7 @@ export default function DestinationNashvillePage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/Interactions/_DSC4003.JPG"
+            src="/destination_nashville/HERO.jpg"
             alt="Welcome to Nashville - Dental Care"
             fill
             className="object-cover"
@@ -71,7 +71,7 @@ export default function DestinationNashvillePage() {
             </div>
             <div className="relative">
               <Image
-                src="/Interactions/_DSC4142.JPG"
+                src="/destination_nashville/bill-griepenstroh-ZodHUsg0L0U-unsplash.jpg"
                 alt="Comfortable dental experience at our Nashville office"
                 width={600}
                 height={400}
@@ -165,7 +165,7 @@ export default function DestinationNashvillePage() {
               </div>
               <div className="relative">
                 <Image
-                  src="/Interactions/_DSC4016.JPG"
+                  src="/destination_nashville/cullen-jones-Ll1DN4QlpTY-unsplash.jpg"
                   alt="Patient receiving sedation dentistry"
                   width={500}
                   height={400}

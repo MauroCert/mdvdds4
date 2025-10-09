@@ -174,7 +174,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-medium text-primary-900 mb-4">Our Dental Services</h2>
             <p className="text-lg text-accent-600 font-medium max-w-3xl mx-auto">
-              All services provided in a comfortable, accessible environment
+              All services provided in a comfortable, accessible environment.
             </p>
           </div>
 

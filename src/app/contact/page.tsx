@@ -266,9 +266,6 @@ export default function ContactPage() {
               <PhoneIcon className="w-5 h-5 mr-2" />
               Call (615) 915-6090
             </Link>
-            <Link href="/patient-forms" className="btn border-2 border-white text-white hover:bg-white hover:text-teal-600 px-8 py-4 text-base font-medium">
-              Download Forms
-            </Link>
           </div>
         </div>
       </section>
