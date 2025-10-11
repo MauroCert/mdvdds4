@@ -17,7 +17,7 @@ const sedationTypes = [
       "Reduced anxiety and fear",
       "Minimal side effects"
     ],
-    image: "/services/sedation-dentistry/dentist-hands-working-young-woman-patient-with-dental-tools (2).jpg"
+    image: "/services/sedation-dentistry/dentist-hands-working-young-woman-patient-with-dental-tools (2)-min.jpg"
   },
   {
     title: "Nitrous Oxide",
@@ -29,7 +29,7 @@ const sedationTypes = [
       "Quick recovery time",
       "Safe for most patients"
     ],
-    image: "/services/sedation-dentistry/young-woman-receiving-dental-treatment-from-male-dentist-clinic.jpg"
+    image: "/services/sedation-dentistry/young-woman-receiving-dental-treatment-from-male-dentist-clinic-min.jpg"
   },
   {
     title: "IV Sedation",
@@ -41,7 +41,7 @@ const sedationTypes = [
       "Ideal for complex procedures",
       "Professional anesthesia care"
     ],
-    image: "/services/sedation-dentistry/paramedic.jpg"
+    image: "/services/sedation-dentistry/paramedic-min.jpg"
   },
   {
     title: "General Anesthesia",
@@ -53,7 +53,7 @@ const sedationTypes = [
       "Ideal for extensive treatment",
       "Hospital-grade monitoring"
     ],
-    image: "/services/sedation-dentistry/patient-undergoing-microneedling-procedure.jpg"
+    image: "/services/sedation-dentistry/patient-undergoing-microneedling-procedure-min.jpg"
   }
 ];
 
@@ -106,7 +106,7 @@ export default function SedationDentistryPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/sedation-dentistry/Sedation Dentistry.jpg"
+                  src="/services/sedation-dentistry/Sedation Dentistry-min.jpg"
                   alt="Sedation Dentistry - Comfortable Care"
                   width={600}
                   height={400}

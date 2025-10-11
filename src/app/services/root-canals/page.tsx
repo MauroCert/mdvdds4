@@ -17,7 +17,7 @@ const rootCanalTypes = [
       "Detailed treatment explanation",
       "Sedation options discussion"
     ],
-    image: "/services/root_canals/dentist-examining-female-patient-with-tools.jpg"
+    image: "/services/root_canals/dentist-examining-female-patient-with-tools-min.jpg"
   },
   {
     title: "Comfortable Treatment",
@@ -29,7 +29,7 @@ const rootCanalTypes = [
       "Continuous comfort monitoring",
       "Gentle, patient-centered approach"
     ],
-    image: "/services/root_canals/close-up-dental-procedure-patient.jpg"
+    image: "/services/root_canals/close-up-dental-procedure-patient-min.jpg"
   },
   {
     title: "Pulp Removal & Cleaning",
@@ -41,7 +41,7 @@ const rootCanalTypes = [
       "Advanced cleaning techniques",
       "Complete bacteria removal"
     ],
-    image: "/services/root_canals/dentist-assistant-surgery-dental-clinic (1).jpg"
+    image: "/services/root_canals/dentist-assistant-surgery-dental-clinic (1)-min.jpg"
   },
   {
     title: "Sealing & Restoration",
@@ -53,7 +53,7 @@ const rootCanalTypes = [
       "Protection of treated tooth",
       "Restoration of function and appearance"
     ],
-    image: "/services/root_canals/macro-photography-beautiful-female-smile-with-white-healthy-teeth (3).jpg"
+    image: "/services/root_canals/macro-photography-beautiful-female-smile-with-white-healthy-teeth (3)-min.jpg"
   }
 ];
 
@@ -106,7 +106,7 @@ export default function RootCanalsPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/root_canals/Root canals.jpg"
+                  src="/services/root_canals/Root canals-min.jpg"
                   alt="Root Canals - Advanced Endodontic Care"
                   width={600}
                   height={400}

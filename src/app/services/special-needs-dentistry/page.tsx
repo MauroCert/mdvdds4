@@ -17,7 +17,7 @@ const patientTypes = [
       "Visual aids and social stories for preparation",
       "Specialized communication strategies"
     ],
-    image: "/services/Special Needs Dentistry page/cheerful-kid.jpg"
+    image: "/services/Special Needs Dentistry page/cheerful-kid-min.jpg"
   },
   {
     title: "Patients with Mental Challenges",
@@ -29,7 +29,7 @@ const patientTypes = [
       "Caregiver involvement and education",
       "Simplified communication methods"
     ],
-    image: "/services/Special Needs Dentistry page/medical-nurse.jpg"
+    image: "/services/Special Needs Dentistry page/medical-nurse-min.jpg"
   },
   {
     title: "Patients with Physical Challenges",
@@ -41,7 +41,7 @@ const patientTypes = [
       "Modified positioning and support systems",
       "Additional staff assistance when needed"
     ],
-    image: "/services/Special Needs Dentistry page/overworked-stressed.jpg"
+    image: "/services/Special Needs Dentistry page/overworked-stressed-min.jpg"
   },
   {
     title: "Patients with Fears of the Dentist",
@@ -53,7 +53,7 @@ const patientTypes = [
       "Gradual treatment approaches",
       "Pre-visit consultations and tours"
     ],
-    image: "/services/Special Needs Dentistry page/female-patient-scared-dental-check-up.jpg"
+    image: "/services/Special Needs Dentistry page/female-patient-scared-dental-check-up-min.jpg"
   }
 ];
 
@@ -106,7 +106,7 @@ export default function SpecialNeedsDentistryPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/Special Needs Dentistry page/Special needs dentistry .jpg"
+                  src="/services/Special Needs Dentistry page/Special needs dentistry -min.jpg"
                   alt="Special Needs Dentistry - Specialized Care"
                   width={600}
                   height={400}

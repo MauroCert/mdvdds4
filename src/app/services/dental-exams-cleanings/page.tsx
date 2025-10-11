@@ -17,7 +17,7 @@ const examTypes = [
       "Oral cancer screening",
       "Bite analysis and jaw assessment"
     ],
-    image: "/services/dental-exams-cleanings/close-up-dentist-using-instruments.jpg"
+    image: "/services/dental-exams-cleanings/close-up-dentist-using-instruments-min.jpg"
   },
   {
     title: "Professional Cleaning",
@@ -29,7 +29,7 @@ const examTypes = [
       "Fluoride treatment options",
       "Polishing for smooth, clean teeth"
     ],
-    image: "/services/dental-exams-cleanings/dentist-treats.jpg"
+    image: "/services/dental-exams-cleanings/dentist-treats-min.jpg"
   },
   {
     title: "Preventive Care Planning",
@@ -41,7 +41,7 @@ const examTypes = [
       "Oral hygiene education",
       "Diet and lifestyle guidance"
     ],
-    image: "/services/dental-exams-cleanings/doctor-writing-clipboard-while-patient-lying-dental-bed.jpg"
+    image: "/services/dental-exams-cleanings/doctor-writing-clipboard-while-patient-lying-dental-bed-min.jpg"
   },
   {
     title: "Special Needs Accommodations",
@@ -53,7 +53,7 @@ const examTypes = [
       "Personalized communication",
       "Caregiver involvement and education"
     ],
-    image: "/services/dental-exams-cleanings/female-patient.jpg"
+    image: "/services/dental-exams-cleanings/female-patient-min.jpg"
   }
 ];
 
@@ -106,7 +106,7 @@ export default function DentalExamsCleaningsPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/dental-exams-cleanings/Dental exams and Cleanings.JPG"
+                  src="/services/dental-exams-cleanings/Dental exams and Cleanings-min.JPG"
                   alt="Dental Exams & Cleanings - Comprehensive Care"
                   width={600}
                   height={400}

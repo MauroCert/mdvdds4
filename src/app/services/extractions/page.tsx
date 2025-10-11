@@ -17,7 +17,7 @@ const extractionTypes = [
       "Minimal discomfort during extraction",
       "Simple aftercare instructions"
     ],
-    image: "/services/extractions/dentist-with-tool-makes-some-manipulations-patient-s-mouth.jpg"
+    image: "/services/extractions/dentist-with-tool-makes-some-manipulations-patient-s-mouth-min.jpg"
   },
   {
     title: "Surgical Extractions",
@@ -29,7 +29,7 @@ const extractionTypes = [
       "Careful tissue management",
       "Comprehensive aftercare support"
     ],
-    image: "/services/extractions/dentist-assistant-surgery-dental-clinic (2).jpg"
+    image: "/services/extractions/dentist-assistant-surgery-dental-clinic (2)-min.jpg"
   },
   {
     title: "Wisdom Tooth Removal",
@@ -41,7 +41,7 @@ const extractionTypes = [
       "Minimally invasive approaches",
       "Detailed recovery planning"
     ],
-    image: "/services/extractions/female-patient-opening-her-mouth-doctor-look-her-throat-otolaryngologist-examines-sore-throat-patient (2).jpg"
+    image: "/services/extractions/female-patient-opening-her-mouth-doctor-look-her-throat-otolaryngologist-examines-sore-throat-patient (2)-min.jpg"
   },
   {
     title: "Special Needs Extractions",
@@ -53,7 +53,7 @@ const extractionTypes = [
       "Caregiver involvement and support",
       "Comprehensive comfort measures"
     ],
-    image: "/services/extractions/patient-scared-by-dental-equipment.jpg"
+    image: "/services/extractions/patient-scared-by-dental-equipment-min.jpg"
   }
 ];
 
@@ -107,7 +107,7 @@ export default function ExtractionsPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/extractions/dental extractions.jpg"
+                  src="/services/extractions/dental extractions-min.jpg"
                   alt="Extractions - Gentle Tooth Removal"
                   width={600}
                   height={400}

@@ -17,7 +17,7 @@ const dentureTypes = [
       "Improved chewing and speaking ability",
       "Easy maintenance and care"
     ],
-    image: "/services/dentures/close-up-dentist-holding-dentures-with-patient.jpg"
+    image: "/services/dentures/close-up-dentist-holding-dentures-with-patient-min.jpg"
   },
   {
     title: "Partial Dentures",
@@ -29,7 +29,7 @@ const dentureTypes = [
       "Natural tooth-colored materials",
       "Custom-designed for your mouth"
     ],
-    image: "/services/dentures/close-up-dentist-holding-teeth-model.jpg"
+    image: "/services/dentures/close-up-dentist-holding-teeth-model-min.jpg"
   },
   {
     title: "Immediate Dentures",
@@ -41,7 +41,7 @@ const dentureTypes = [
       "Temporary solution during healing",
       "Easy adjustment period"
     ],
-    image: "/services/dentures/portrait-female-dentist-holding-set-dentures.jpg"
+    image: "/services/dentures/portrait-female-dentist-holding-set-dentures-min.jpg"
   },
   {
     title: "Special Needs Dentures",
@@ -53,7 +53,7 @@ const dentureTypes = [
       "Caregiver involvement in process",
       "Specialized materials and techniques"
     ],
-    image: "/services/dentures/expressive-senior-woman-posing.jpg"
+    image: "/services/dentures/expressive-senior-woman-posing-min.jpg"
   }
 ];
 
@@ -106,7 +106,7 @@ export default function DenturesPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/dentures/Dentures.jpg"
+                  src="/services/dentures/Dentures-min.jpg"
                   alt="Dentures - Restoring Your Smile"
                   width={600}
                   height={400}
