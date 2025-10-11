@@ -29,7 +29,7 @@ export default function AboutPage() {
             </div>
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <Image
-                src="/Interactions/_DSC4128.JPG"
+                src="/about/close-up-boy-dentist.jpg"
                 alt="Dr. Vaughan providing dental care"
                 width={600}
                 height={400}
@@ -81,7 +81,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/Interactions/_DSC4059.JPG"
+                src="/about/team-happy-doctors-standing-with-arms-crossed-mri-scanner-hospital-looking-camera.jpg"
                 alt="Dr. Vaughan with patient"
                 width={500}
                 height={400}

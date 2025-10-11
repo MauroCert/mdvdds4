@@ -17,7 +17,7 @@ const patientTypes = [
       "Visual aids and social stories for preparation",
       "Specialized communication strategies"
     ],
-    image: "/Interactions/_DSC4127.JPG"
+    image: "/services/Special Needs Dentistry page/cheerful-kid.jpg"
   },
   {
     title: "Patients with Mental Challenges",
@@ -29,7 +29,7 @@ const patientTypes = [
       "Caregiver involvement and education",
       "Simplified communication methods"
     ],
-    image: "/Interactions/_DSC4106.JPG"
+    image: "/services/Special Needs Dentistry page/medical-nurse.jpg"
   },
   {
     title: "Patients with Physical Challenges",
@@ -41,7 +41,7 @@ const patientTypes = [
       "Modified positioning and support systems",
       "Additional staff assistance when needed"
     ],
-    image: "/Details/_DSC4072.JPG"
+    image: "/services/Special Needs Dentistry page/overworked-stressed.jpg"
   },
   {
     title: "Patients with Fears of the Dentist",
@@ -53,7 +53,7 @@ const patientTypes = [
       "Gradual treatment approaches",
       "Pre-visit consultations and tours"
     ],
-    image: "/Interactions/_DSC4116.JPG"
+    image: "/services/Special Needs Dentistry page/female-patient-scared-dental-check-up.jpg"
   }
 ];
 
@@ -72,7 +72,7 @@ export default function SpecialNeedsDentistryPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="section-padding bg-gradient-to-br from-gray-50 to-white">
+      <section className="py-10 lg:py-16 bg-gradient-to-br from-gray-50 to-white">
         <div className="container-padding">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -90,7 +90,7 @@ export default function SpecialNeedsDentistryPage() {
                   <ArrowRightIcon className="ml-2 h-5 w-5" />
                 </Link>
                 <Link href="/services/sedation-dentistry" className="btn btn-outline btn-lg">
-                  Learn about sedation
+                  Learn more
                 </Link>
               </div>
               <div className="card p-6 bg-teal-50 border-teal-200">
@@ -106,7 +106,7 @@ export default function SpecialNeedsDentistryPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/Interactions/_DSC4143.JPG"
+                  src="/services/Special Needs Dentistry page/Special needs dentistry .jpg"
                   alt="Special Needs Dentistry - Specialized Care"
                   width={600}
                   height={400}
@@ -130,7 +130,7 @@ export default function SpecialNeedsDentistryPage() {
       </section>
 
       {/* Our Commitment */}
-      <section className="section-padding">
+      <section className="py-10 lg:py-16">
         <div className="container-padding">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -195,7 +195,7 @@ export default function SpecialNeedsDentistryPage() {
       </section>
 
       {/* Patient Types We Serve */}
-      <section className="section-padding bg-gray-50">
+      <section className="py-10 lg:py-16 bg-gray-50">
         <div className="container-padding">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
@@ -256,7 +256,7 @@ export default function SpecialNeedsDentistryPage() {
       </section>
 
       {/* What We Offer */}
-      <section className="section-padding">
+      <section className="py-10 lg:py-16">
         <div className="container-padding">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -318,7 +318,7 @@ export default function SpecialNeedsDentistryPage() {
       </section>
 
       {/* Unique Position */}
-      <section className="section-padding bg-teal-600 text-white">
+      <section className="py-10 lg:py-16 bg-teal-600 text-white">
         <div className="container-padding text-center">
           <h2 className="text-4xl font-bold mb-6">
             One of Only Two in Middle Tennessee
@@ -340,7 +340,7 @@ export default function SpecialNeedsDentistryPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="section-padding bg-gray-50">
+      <section className="py-10 lg:py-16 bg-gray-50">
         <div className="container-padding text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-6">
             Ready to Get Started?
