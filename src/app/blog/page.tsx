@@ -27,7 +27,7 @@ export default function BlogPage() {
     {
       title: "Dental Care for Patients with Autism: What Families Should Know",
       excerpt: "Practical tips and insights for families of patients with autism spectrum disorder, including how to prepare for dental visits and what accommodations are available.",
-      image: "/Details/_DSC3997.JPG",
+      image: "/Details/_DSC4049.JPG",
       author: "Dr. Michael D. Vaughan",
       date: "November 30, 2024",
       readTime: "7 min read",
@@ -37,7 +37,7 @@ export default function BlogPage() {
     {
       title: "The Importance of Regular Dental Check-ups for Special Needs Patients",
       excerpt: "Why routine dental care is crucial for patients with special needs and how early intervention can prevent serious oral health issues down the road.",
-      image: "/Details/_DSC4016.JPG",
+      image: "/Details/_DSC4070.JPG",
       author: "Dr. Michael D. Vaughan",
       date: "November 22, 2024",
       readTime: "5 min read",
@@ -47,7 +47,7 @@ export default function BlogPage() {
     {
       title: "Dental Emergencies and Special Needs: What to Do",
       excerpt: "A guide for caregivers and families on recognizing and responding to dental emergencies in patients with special needs, including when to seek immediate care.",
-      image: "/Details/_DSC4063.JPG",
+      image: "/Details/_DSC4073.JPG",
       author: "Dr. Michael D. Vaughan",
       date: "November 15, 2024",
       readTime: "6 min read",
@@ -57,7 +57,7 @@ export default function BlogPage() {
     {
       title: "Nutrition and Oral Health for Patients with Special Needs",
       excerpt: "How diet and nutrition impact oral health in patients with special needs, and practical tips for maintaining healthy teeth and gums through proper nutrition.",
-      image: "/Details/_DSC3997.JPG",
+      image: "/Details/_DSC4078.JPG",
       author: "Dr. Michael D. Vaughan",
       date: "November 8, 2024",
       readTime: "7 min read",
@@ -129,7 +129,7 @@ export default function BlogPage() {
                     <UserIcon className="w-4 h-4 mr-2" />
                     <span>Dr. Michael D. Vaughan</span>
                   </div>
-                  <Link href="/blog/understanding-special-needs-dentistry" className="btn bg-teal-600 text-white hover:bg-teal-700">
+                  <Link href="/blog/understanding-special-needs-dentistry" className="btn bg-teal-600 text-white hover:bg-teal-700 px-5">
                     Read Full Article
                   </Link>
                 </div>
