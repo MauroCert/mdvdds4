@@ -72,22 +72,37 @@ export default function TeamPage() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <section className="pt-20 pb-10 bg-gradient-to-br from-gray-50 to-white">
-        <div className="container-padding">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">Meet Our Team</h1>
-            <p className="text-lg text-accent-600 font-medium mb-8">
-              Our valued team members are not only talented and experienced – they&apos;re also caring, compassionate and dedicated to improving access to oral health.
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              How we work together as a team, and as a company, ultimately affects how we treat, support and care for our patients. That&apos;s why we are grounded on three core values that make the spirit of our Practice, which guide us as we strive to provide a welcoming place every day.
-            </p>
+      <section className="relative min-h-[60vh] lg:min-h-[70vh] flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/about/meet-the-team/dentistry-team-office-min.jpg"
+            alt="Our caring dental team"
+            fill
+            className="object-cover object-top"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40"></div>
+        </div>
+
+        {/* Content Overlay */}
+        <div className="relative z-10 container-padding w-full">
+          <div className="max-w-7xl mx-auto px-4 lg:px-8">
+            <div className="text-center">
+              <h1 className="text-4xl lg:text-5xl font-semibold mb-6 text-white">
+                Meet Our Team
+              </h1>
+              <p className="text-lg text-white font-medium max-w-4xl mx-auto">
+                Our valued team members are talented, compassionate, and dedicated to expanding
+                access to oral health in our community.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Core Values */}
-      <section className="section-padding bg-white">
+      <section className="py-10 lg:py-16 bg-white">
         <div className="container-padding">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Our Core Values</h2>
@@ -109,10 +124,10 @@ export default function TeamPage() {
       </section>
 
       {/* Team Spirit */}
-      <section className="section-padding bg-gray-50">
+      <section className="py-16 lg:py-24 bg-accent-600 text-white">
         <div className="container-padding">
           <div className="max-w-4xl mx-auto text-center">
-            <p className="text-xl text-gray-700 leading-relaxed italic">
+            <p className="text-xl leading-relaxed italic font-medium">
               Each of our team members reflects the spirit of our Practice and our unique values-based approach to oral health. We&apos;re proud of our team and how they work to make us successful in our endeavor to expand access to dental care in our community.
             </p>
           </div>
@@ -120,7 +135,7 @@ export default function TeamPage() {
       </section>
 
       {/* Team Members */}
-      <section className="section-padding">
+      <section className="py-10 lg:py-16">
         <div className="container-padding">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">Our Doctors and Management Team</h2>
@@ -132,17 +147,18 @@ export default function TeamPage() {
               {teamMembers.map((member, index) => (
                 <div key={index} className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-start ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
                   <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-                    <div className="relative w-full max-w-md mx-auto">
-                      <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
-                        <Image
-                          src={member.image}
-                          alt={member.name}
-                          width={500}
-                          height={500}
-                          className="w-full h-full object-cover object-center"
-                        />
-                      </div>
+                  <div className="relative w-full max-w-md mx-auto">
+                    <div className="rounded-2xl overflow-hidden shadow-2xl">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        width={700}
+                        height={840}
+                        className="w-full h-auto object-contain bg-gray-100"
+                        priority={index === 0}
+                      />
                     </div>
+                  </div>
                   </div>
                   <div className={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
                     <h3 className="text-3xl font-bold text-gray-900 mb-2">{member.name}</h3>
@@ -162,28 +178,8 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* Join Our Team CTA */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-padding">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Join Our Team</h2>
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              We invest, support and encourage our team to enjoy what they do and who they are with. Whether you&apos;re a prospective patient or searching for a new position at a place that shares your values, we look forward to hearing from you!
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact" className="btn btn-primary btn-lg">
-                Contact Us
-              </Link>
-              <Link href="/services" className="btn btn-secondary btn-lg">
-                Our Services
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
-      <section className="py-12 bg-teal-600 text-white">
+      <section className="py-10 lg:py-16 bg-teal-600 text-white">
         <div className="container-padding text-center">
           <div className="flex flex-col items-center justify-center space-y-4">
             <Image
