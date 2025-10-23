@@ -37,14 +37,15 @@ export default function DestinationNashvillePage() {
       {/* Main Content */}
       <section className="py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
-            <div>
-              <h2 className="text-3xl lg:text-4xl font-medium text-gray-900 mb-6">
-                Transform Your Dental Experience Into a Vacation
-              </h2>
-              <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                Imagine receiving the specialized dental care you need while enjoying a relaxing vacation in one of America&apos;s most vibrant cities. At Michael D. Vaughan, DDS, we make this possible by combining our expertise in special needs dentistry and sedation with Nashville&apos;s renowned hospitality.
-              </p>
+          <div className="mb-20">
+            <h2 className="text-3xl lg:text-4xl font-medium text-gray-900 mb-6 text-center">
+              Transform Your Dental Experience Into a Vacation
+            </h2>
+            <p className="text-lg text-gray-600 leading-relaxed mb-12 text-center max-w-4xl mx-auto">
+              Imagine receiving the specialized dental care you need while enjoying a relaxing vacation in one of America&apos;s most vibrant cities. At Michael D. Vaughan, DDS, we make this possible by combining our expertise in special needs dentistry and sedation with Nashville&apos;s renowned hospitality.
+            </p>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
               <div className="space-y-4">
                 <div className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-teal-600 mr-3 mt-1 flex-shrink-0" />
@@ -68,15 +69,36 @@ export default function DestinationNashvillePage() {
                   </div>
                 </div>
               </div>
+              <div className="relative">
+                <Image
+                  src="/destination_nashville/bill-griepenstroh-ZodHUsg0L0U-unsplash.jpg"
+                  alt="Comfortable dental experience at our Nashville office"
+                  width={600}
+                  height={400}
+                  className="w-full h-96 object-cover rounded-lg shadow-lg"
+                />
+              </div>
             </div>
-            <div className="relative">
-              <Image
-                src="/destination_nashville/bill-griepenstroh-ZodHUsg0L0U-unsplash.jpg"
-                alt="Comfortable dental experience at our Nashville office"
-                width={600}
-                height={400}
-                className="w-full h-96 object-cover rounded-lg shadow-lg"
-              />
+
+            {/* Carol Andrews Section */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="space-y-6">
+                <h3 className="text-2xl font-semibold text-gray-900">Meet Your Travel Partner</h3>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  <strong>Carol Andrews</strong>, owner of <Link href="https://www.andrewstravel.com" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 underline">Andrews Travel</Link>, has over 13 years of experience crafting unforgettable travel experiences around the world. As a proud member of the Virtuoso network, she offers clients exclusive perks and amenities at top hotels, cruise lines, and tour operators, often at no extra cost.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Carol curates personalized itineraries for everything from extended international vacations to family adventures and weekend getaways. A native Nashvillian, she also helps visitors experience the best of Nashville and its surrounding areas.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  Whether you know exactly where you want to go or need help finding the perfect destination, Andrews Travel is with you every step of the way — before, during, and after your trip.
+                </p>
+              </div>
+              <div className="relative">
+                <div className="w-full h-96 bg-gray-100 rounded-lg shadow-lg flex items-center justify-center">
+                  <p className="text-gray-400 text-center px-8">Carol Andrews photo<br/>to be added</p>
+                </div>
+              </div>
             </div>
           </div>
 
