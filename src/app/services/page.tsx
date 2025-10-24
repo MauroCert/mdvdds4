@@ -9,7 +9,7 @@ export const metadata = {
 const services = [
   {
     title: "Special Needs Dentistry",
-    description: "Specialized dental care for patients with neurodivergence, intellectual disabilities, physical challenges, and dental anxiety. One of only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options.",
+    description: "Excellent dental care for patients with neurodivergence, intellectual disabilities, physical challenges, and dental anxiety. One of only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options.",
     image: "/services_pictures/Special needs dentistry .jpg",
     href: "/services/special-needs-dentistry",
     featured: true,
@@ -30,7 +30,7 @@ const services = [
   },
   {
     title: "Root Canals",
-    description: "Endodontic treatment to save infected or severely damaged teeth, performed with specialized techniques for patients with special needs and sedation options available.",
+    description: "Endodontic treatment to save infected or severely damaged teeth, performed with excellent techniques for patients with special needs and sedation options available.",
     image: "/services_pictures/Root canals.jpg",
     href: "/services/root-canals",
     featured: true,
@@ -43,8 +43,8 @@ const services = [
     featured: true,
   },
   {
-    title: "Extractions",
-    description: "Tooth extractions performed with specialized techniques and sedation options to ensure patient comfort, particularly for those with dental anxiety or special needs.",
+    title: "Oral and Maxillofacial Surgery",
+    description: "Surgical Removal of wisdom teeth and non-restorable teeth using the latest techniques and oral and IV sedation to ensure patient comfort, particularly for those with dental anxiety or phobias.",
     image: "/services_pictures/dental extractions.jpg",
     href: "/services/extractions",
     featured: true,

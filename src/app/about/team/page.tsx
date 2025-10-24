@@ -21,16 +21,16 @@ export default function TeamPage() {
     },
     {
       name: "Jason Taylor",
-      role: "Practice Manager",
+      role: "Operations Director",
       image: "/Headshots/e2_DSC4217.JPG",
       bio: [
-        "Before joining our Practice, Jason was the director of Community Connections of Middle Tennessee, a company that provides support coordination services for adults with IDD. It was there that he learned there were not many options for service when it came to dentistry. When he learned about the concept that we were attempting to provide, it resonated with him. Our Practice was aiming to meet a need to help others in an area that not many people understood how to help. Jason likes challenges and helping others. He has lived and worked all over the U.S and has always been vested in helping others. He sees his opportunity at our Practice as a culmination of previous experiences of serving and helping others.",
-        "Jason's favorite aspect of working with us is the freedom to provide a life-changing service in a transparent and affordable way. He is on the Middle Tennessee Planning and Policy Council for DIDD. Some of his hobbies outside of work include being outdoors, going on adventures, running and experiencing community. Jason is always open to a good conversation, a good laugh and a good adventure. He has two children, Ali and Jet, with his wife, Tara. Being a father is one of his most important accomplishments, along with living for two years without electricity and biking across the U.S. One item on his bucket list is to hike the Appalachian Trail."
+        "Jason has a passion for people and lives life with the understanding that we were created for community. With a background that spans working with children and adults Jason takes a life on life approach to meet people where they are. Jason started working with IDD adults in 2009 as a support coordinator. Before joining Dr. Vaughan he was the Middle TN Area Director for an ISC company. He has served on the Middle TN planning policy council for IDD services, and he continues to serve as an advocate to improve access to care for the most vulnerable members of society.",
+        "Some of Jason's developmental life experiences include living for two years without electricity as an instructor at therapeutic camp. Riding his bicycle coast to coast across the United States. Being a husband and father to his two children and most importantly his faith and relationship with God."
       ]
     },
     {
       name: "Moses Barbalat",
-      role: "Operations Director",
+      role: "Technology Director",
       image: "/Headshots/e4_DSC4298.JPG",
       bio: [
         "Moses met Dr. Vaughan some years ago and was amazed at how we were delivering oral care. Moses has been a strong member of our team since he joined. He is our go-to guy for every technological question, problem or concern. He has 12 years of experience working with startup companies. Moses says his biggest accomplishments have been creating high productivity teams, hiring excellent people and creating a nice company culture. He has certainly used his experience to help our Practice grow into the company it is today.",

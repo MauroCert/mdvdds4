@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     default: 'Michael D. Vaughan, DDS | Special Needs & Sedation Dentistry | Nashville, TN',
     template: '%s | Michael D. Vaughan, DDS',
   },
-  description: 'Dr. Michael D. Vaughan provides specialized dental care for patients with special needs, neurodivergence, and dental anxiety. Offering sedation dentistry in Nashville, Tennessee.',
+  description: 'Nashville, TN dentist experienced in special needs and sedation dentistry. Dr. Michael D. Vaughan provides excellent dental care for patients with special needs, neurodivergence, and dental anxiety.',
 }
 
 export default function RootLayout({

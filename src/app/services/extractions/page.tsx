@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CheckCircleIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
 
 export const metadata = {
-  title: "Extractions",
+  title: "Oral and Maxillofacial Surgery",
 };
 
 const extractionTypes = [
@@ -33,10 +33,10 @@ const extractionTypes = [
   },
   {
     title: "Wisdom Tooth Removal",
-    subtitle: "Specialized extraction of third molars",
-    description: "Wisdom tooth extractions often require surgical techniques due to their position and development. We provide specialized care for these complex extractions.",
+    subtitle: "Excellent extraction of third molars",
+    description: "Wisdom tooth extractions often require surgical techniques due to their position and development. We provide excellent care for these complex extractions.",
     accommodations: [
-      "Specialized wisdom tooth techniques",
+      "Excellent wisdom tooth techniques",
       "Sedation options for comfort",
       "Minimally invasive approaches",
       "Detailed recovery planning"
@@ -44,11 +44,23 @@ const extractionTypes = [
     image: "/services/extractions/female-patient-opening-her-mouth-doctor-look-her-throat-otolaryngologist-examines-sore-throat-patient (2)-min.jpg"
   },
   {
+    title: "Endodontic Surgery",
+    subtitle: "Advanced surgical root canal treatment",
+    description: "Endodontic surgery to remove apical cysts and seal root tips. This procedure is performed when traditional root canal therapy is not sufficient to save the tooth.",
+    accommodations: [
+      "Microsurgical techniques",
+      "Removal of apical cysts",
+      "Root tip sealing procedures",
+      "Oral and IV sedation available"
+    ],
+    image: "/services/extractions/dentist-assistant-surgery-dental-clinic (2)-min.jpg"
+  },
+  {
     title: "Special Needs Extractions",
     subtitle: "Compassionate care for unique requirements",
-    description: "We specialize in providing tooth extractions for patients with special needs, using specialized techniques and accommodations to ensure comfort and safety throughout the procedure.",
+    description: "We excel in providing tooth extractions for patients with special needs, using excellent techniques and accommodations to ensure comfort and safety throughout the procedure.",
     accommodations: [
-      "Specialized techniques for special needs",
+      "Excellent techniques for special needs",
       "Extended appointment times",
       "Caregiver involvement and support",
       "Comprehensive comfort measures"
@@ -63,7 +75,7 @@ const benefits = [
   "Removes damaged or problematic teeth",
   "Prepares mouth for future treatments",
   "Sedation options for comfort",
-  "Specialized care for special needs",
+  "Excellent care for special needs",
   "Minimal discomfort during procedure",
   "Comprehensive aftercare support"
 ];
@@ -77,12 +89,11 @@ export default function ExtractionsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                Extractions
+                Oral and Maxillofacial Surgery
               </h1>
               <p className="text-lg text-accent-600 font-medium mb-8">
-                Tooth extractions performed with specialized techniques and sedation options to ensure 
-                patient comfort, particularly for those with dental anxiety or special needs. We understand 
-                that extractions can be anxiety-provoking and provide compassionate care.
+                Surgical Removal of wisdom teeth and non-restorable teeth using the latest techniques and 
+                oral and IV sedation to ensure patient comfort, particularly for those with dental anxiety or phobias.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Link href="/contact" className="btn btn-primary btn-lg">
@@ -139,7 +150,7 @@ export default function ExtractionsPage() {
             </h2>
             <p className="text-lg text-accent-600 font-medium max-w-4xl mx-auto">
               Tooth extraction is sometimes necessary when a tooth is too damaged to be saved or when 
-              it poses a risk to your overall oral health. Our practice specializes in performing 
+              it poses a risk to your overall oral health. Our practice excels in performing 
               extractions with the utmost care and comfort.
             </p>
           </div>
@@ -167,11 +178,10 @@ export default function ExtractionsPage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                Sedation Options
+                Sedation Options We Offer
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                We offer various sedation options to help anxious patients feel comfortable and 
-                relaxed during their extraction procedure.
+                We provide sedation options for patients who experience anxiety about extractions ensuring a comfortable and stress-free experience throughout the procedure. This includes sedative premeds, nitrous oxide sedation, oral sedation and IV sedation.
               </p>
             </div>
 
@@ -186,7 +196,7 @@ export default function ExtractionsPage() {
                 Special Needs Expertise
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Our practice specializes in providing extractions for patients with special needs, 
+                Our practice excels in providing extractions for patients with special needs, 
                 ensuring everyone receives comfortable, safe care tailored to their unique requirements.
               </p>
             </div>
@@ -323,7 +333,7 @@ export default function ExtractionsPage() {
             Expert Oral Surgery Care in Nashville
           </h2>
           <p className="text-xl text-teal-100 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Dr. Vaughan specializes in providing comfortable tooth extractions for patients with special needs, 
+            Dr. Vaughan excels in providing comfortable tooth extractions for patients with special needs, 
             using advanced techniques and sedation options to ensure optimal outcomes. Our practice provides 
             comprehensive extraction services with personalized care and attention.
           </p>
@@ -402,9 +412,9 @@ export default function ExtractionsPage() {
                 Do you accommodate patients with special needs?
               </h3>
               <p className="text-gray-600">
-                Absolutely. Our practice specializes in providing extractions for patients with special 
+                Absolutely. Our practice excels in providing extractions for patients with special 
                 needs. We offer extended appointments, sedation options, caregiver involvement, and 
-                specialized techniques to ensure comfortable and successful procedures.
+                excellent techniques to ensure comfortable and successful procedures.
               </p>
             </div>
           </div>

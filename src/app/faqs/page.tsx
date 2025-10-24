@@ -83,7 +83,7 @@ export default function FAQsPage() {
       questions: [
         {
           question: "What services do you offer?",
-          answer: "We provide comprehensive dental services including dental exams and cleanings, root canals, dentures, extractions, and sedation dentistry. We specialize in treating patients with special needs, dental anxiety, neurodivergence, and physical challenges."
+          answer: "We provide comprehensive dental services including dental exams and cleanings, root canals, dentures, extractions, and sedation dentistry. We excel in treating patients with special needs, dental anxiety, neurodivergence, and physical challenges."
         },
         {
           question: "Do you offer emergency dental care?",
@@ -104,11 +104,11 @@ export default function FAQsPage() {
       questions: [
         {
           question: "Why should I choose your practice?",
-          answer: "We're one of only two practices in Middle Tennessee specializing in sedation and special needs dentistry. Dr. Vaughan has extensive experience and a genuine passion for providing compassionate, individualized care. Our patient-centered approach ensures every patient feels valued, respected, and well-cared for."
+          answer: "We're one of only two practices in Middle Tennessee experienced in sedation and special needs dentistry. Dr. Vaughan has extensive experience and a genuine passion for providing compassionate, individualized care. Our patient-centered approach ensures every patient feels valued, respected, and well-cared for."
         },
         {
           question: "Do you have experience with PTSD and trauma patients?",
-          answer: "Yes, Dr. Vaughan specializes in treating patients who have experienced trauma or have PTSD. We understand the unique challenges these patients face and create a safe, supportive environment. Our sedation options and gentle approach help make dental care accessible and stress-free."
+          answer: "Yes, Dr. Vaughan excels in treating patients who have experienced trauma or have PTSD. We understand the unique challenges these patients face and create a safe, supportive environment. Our sedation options and gentle approach help make dental care accessible and stress-free."
         },
         {
           question: "Can families accompany patients during treatment?",
@@ -116,7 +116,7 @@ export default function FAQsPage() {
         },
         {
           question: "What makes your practice unique in Middle Tennessee?",
-          answer: "We are one of only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options. Dr. Vaughan has specialized training and extensive experience in treating patients with neurodivergence, intellectual disabilities, physical challenges, and dental anxiety."
+          answer: "We are one of only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options. Dr. Vaughan has excellent training and extensive experience in treating patients with neurodivergence, intellectual disabilities, physical challenges, and dental anxiety."
         }
       ]
     }
@@ -148,7 +148,7 @@ export default function FAQsPage() {
             </h2>
             <p className="text-lg text-accent-600 font-medium">
               We understand that visiting the dentist can raise many questions, especially when it comes to
-              specialized care like special needs dentistry and sedation. Browse our comprehensive FAQ section
+              excellent care like special needs dentistry and sedation. Browse our comprehensive FAQ section
               or contact us directly if you don&apos;t find what you&apos;re looking for.
             </p>
           </div>

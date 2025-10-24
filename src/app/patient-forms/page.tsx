@@ -23,7 +23,7 @@ export default function PatientFormsPage() {
     },
     {
       title: "Special Needs Information Form",
-      description: "Additional information to help us provide specialized care for patients with special needs.",
+      description: "Additional information to help us provide excellent care for patients with special needs.",
       category: "Special Needs",
       downloadUrl: "/forms/special-needs-info.pdf"
     },
