@@ -61,15 +61,15 @@ export default function AboutPage() {
                 to ensure the most accurate diagnosis and treatment.
               </p>
               <p className="text-gray-700 mb-8 leading-relaxed">
-                Dr. Vaughan specializes in caring for individuals with intellectual and developmental disabilities, 
+                Dr. Vaughan excels in caring for individuals with intellectual and developmental disabilities, 
                 neurodivergence, physical challenges, and dental anxiety. Our practice is uniquely positioned as one of 
                 only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options.
               </p>
               <div className="space-y-4">
                 {[
-                  "Board-certified specialist in special needs dentistry",
+                  "Board-certified in special needs dentistry",
                   "Extensive experience with sedation techniques",
-                  "State-of-the-art facility with specialized equipment",
+                  "State-of-the-art facility with excellent equipment",
                   "Compassionate, patient-centered approach"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start">
@@ -112,8 +112,8 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Meet Dr. Michael D. Vaughan</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Dr. Vaughan is a highly qualified dentist specializing in special needs dentistry and sedation options. 
-                His years of specialized experience allow him to provide our patients with dental care that is tailored 
+                Dr. Vaughan is a highly qualified dentist excelling in special needs dentistry and sedation options. 
+                His years of excellent experience allow him to provide our patients with dental care that is tailored 
                 to meet each individual&apos;s specific needs.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
@@ -137,7 +137,7 @@ export default function AboutPage() {
                 <div className="card p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">Person-Centered Care</h3>
                   <p className="text-gray-700">
-                    Specialized approach tailored to each patient&apos;s unique needs and comfort level.
+                    Excellent approach tailored to each patient&apos;s unique needs and comfort level.
                   </p>
                 </div>
               </div>
@@ -185,7 +185,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Safety & Comfort</h3>
               <p className="text-gray-600 leading-relaxed">
                 At our Practice, the safety, comfort and dignity of our patients are at the forefront of our service goals. 
-                We provide specialized accommodations for every unique need.
+                We provide excellent accommodations for every unique need.
               </p>
             </div>
 
@@ -196,7 +196,7 @@ export default function AboutPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Specialized Equipment</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Excellent Equipment</h3>
               <p className="text-gray-600 leading-relaxed">
                 We have a Hoyer lift to transfer patients with mobility difficulties into the dental chair and provide 
                 additional staff to meet patient requirements as needed.

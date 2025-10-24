@@ -8,7 +8,7 @@ export default function FAQsPage() {
       questions: [
         {
           question: "How do you accommodate patients with dental anxiety?",
-          answer: "We specialize in treating patients with dental anxiety and create a calm, supportive environment. Our team takes extra time to explain procedures, answer questions, and ensure you're comfortable throughout your visit. We also offer sedation dentistry options for a completely relaxed experience."
+          answer: "We excel in treating patients with dental anxiety and create a calm, supportive environment. Our team takes extra time to explain procedures, answer questions, and ensure you're comfortable throughout your visit. We also offer sedation dentistry options for a completely relaxed experience."
         },
         {
           question: "What is sedation dentistry and how does it work?",
@@ -33,7 +33,7 @@ export default function FAQsPage() {
       questions: [
         {
           question: "What is special needs dentistry, and what does it involve?",
-          answer: "Special needs dentistry provides comprehensive dental care for patients with neurodivergence, intellectual disabilities, physical challenges, or dental anxiety. We create individualized treatment plans, use specialized techniques, and offer a comfortable environment that accommodates each patient's unique needs and abilities."
+          answer: "Special needs dentistry provides comprehensive dental care for patients with neurodivergence, intellectual disabilities, physical challenges, or dental anxiety. We create individualized treatment plans, use excellent techniques, and offer a comfortable environment that accommodates each patient's unique needs and abilities."
         },
         {
           question: "Do you treat patients with autism or ADHD?",
@@ -45,7 +45,7 @@ export default function FAQsPage() {
         },
         {
           question: "Do you treat children with special needs?",
-          answer: "Yes, we provide specialized dental care for children and adults with special needs. We understand that each patient is unique and work closely with families and caregivers to ensure the best possible experience for every patient."
+          answer: "Yes, we provide excellent dental care for children and adults with special needs. We understand that each patient is unique and work closely with families and caregivers to ensure the best possible experience for every patient."
         },
         {
           question: "What accommodations do you provide for sensory sensitivities?",

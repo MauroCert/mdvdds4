@@ -42,7 +42,7 @@ export default function DestinationNashvillePage() {
               Transform Your Dental Experience Into a Vacation
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-12 text-center max-w-4xl mx-auto">
-              Imagine receiving the specialized dental care you need while enjoying a relaxing vacation in one of America&apos;s most vibrant cities. At Michael D. Vaughan, DDS, we make this possible by combining our expertise in special needs dentistry and sedation with Nashville&apos;s renowned hospitality.
+              Imagine receiving the excellent dental care you need while enjoying a relaxing vacation in one of America&apos;s most vibrant cities. At Michael D. Vaughan, DDS, we make this possible by combining our expertise in special needs dentistry and sedation with Nashville&apos;s renowned hospitality.
             </p>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
@@ -50,7 +50,7 @@ export default function DestinationNashvillePage() {
                 <div className="flex items-start">
                   <CheckCircleIcon className="w-6 h-6 text-teal-600 mr-3 mt-1 flex-shrink-0" />
                   <div>
-                    <h3 className="font-semibold text-gray-900">Specialized Care</h3>
+                    <h3 className="font-semibold text-gray-900">Excellent Care</h3>
                     <p className="text-gray-600">Expert sedation dentistry for patients with PTSD, trauma, dental anxiety, and special needs</p>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ export default function DestinationNashvillePage() {
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">PTSD & Trauma Patients</h3>
                 <p className="text-gray-600">
-                  Specialized care for those who have experienced trauma, providing a safe, comfortable environment for healing.
+                  Excellent care for those who have experienced trauma, providing a safe, comfortable environment for healing.
                 </p>
               </div>
               <div className="text-center p-6 bg-gray-50 rounded-lg">

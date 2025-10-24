@@ -13,7 +13,7 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="text-lg text-white font-medium max-w-3xl mx-auto">
-              Ready to schedule your appointment or have questions about our services? We&apos;re here to help you get the specialized dental care you deserve.
+              Ready to schedule your appointment or have questions about our services? We&apos;re here to help you get the excellent dental care you deserve.
             </p>
           </div>
         </div>
@@ -258,7 +258,7 @@ export default function ContactPage() {
             Ready to Schedule Your Appointment?
           </h2>
           <p className="text-lg text-teal-100 font-medium mb-8 max-w-2xl mx-auto">
-            Don&apos;t wait to get the specialized dental care you need. Contact us today to Request a Consultation
+            Don&apos;t wait to get the excellent dental care you need. Contact us today to Request a Consultation
             and experience the difference compassionate, expert care can make.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

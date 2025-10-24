@@ -69,7 +69,7 @@ export default function Home() {
                   CARE
                 </h1>
                 <p className="text-xl lg:text-2xl text-neutral-100 font-normal">
-                  Your specialist in Nashville, TN specializing in special needs and sedation dentistry.
+                  Your dental home in Nashville excelling in Special Needs and Sedation Dentistry.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -149,7 +149,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-medium text-primary-900 mb-4">Fearless Procedures</h3>
               <p className="text-primary-600 leading-relaxed">
-                We know visiting a dental specialist can seem daunting. With Dr. Vaughan, you don&apos;t need to worry.
+                We know visiting the dentist can seem daunting. With Dr. Vaughan, you don&apos;t need to worry.
                 He will warmly welcome you, ensure you feel comfortable, and offer various sedation methods if needed.
               </p>
             </div>
@@ -277,10 +277,10 @@ export default function Home() {
                 Meet Dr. Michael D. Vaughan
               </h2>
               <p className="text-lg text-accent-600 font-medium">
-                Your specialist in Nashville, TN
+                Excelling in Nashville, TN
               </p>
               <p className="text-primary-600 leading-relaxed">
-                Dr. Michael D. Vaughan is a highly experienced dentist specializing in special needs dentistry and sedation dentistry.
+                Dr. Michael D. Vaughan is a highly experienced dentist excelling in special needs dentistry and sedation dentistry.
                 With years of dedicated practice in Nashville, Tennessee, Dr. Vaughan has earned a reputation for providing
                 compassionate, professional care to patients of all ages and abilities.
               </p>
@@ -314,7 +314,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
             {[
               "One-on-one time with Dr. Vaughan",
-              "Specialist care from a trained professional",
+              "Excellent care from a trained professional",
               "Open and transparent communication",
               "Online patient forms",
               "Help with insurance and payment plans",

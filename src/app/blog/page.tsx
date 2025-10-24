@@ -6,7 +6,7 @@ export default function BlogPage() {
   const blogPosts = [
     {
       title: "Understanding Special Needs Dentistry: A Comprehensive Guide",
-      excerpt: "Learn about the specialized field of special needs dentistry and how it helps patients with intellectual, developmental, and physical disabilities receive the dental care they deserve.",
+      excerpt: "Learn about the excellent field of special needs dentistry and how it helps patients with intellectual, developmental, and physical disabilities receive the dental care they deserve.",
       image: "/Details/_DSC4016.JPG",
       author: "Dr. Michael D. Vaughan",
       date: "December 15, 2024",
@@ -118,7 +118,7 @@ export default function BlogPage() {
                     Understanding Special Needs Dentistry: A Comprehensive Guide
                   </h2>
                   <p className="text-gray-600 mb-6 leading-relaxed">
-                    Learn about the specialized field of special needs dentistry and how it helps patients with
+                    Learn about the excellent field of special needs dentistry and how it helps patients with
                     intellectual, developmental, and physical disabilities receive the dental care they deserve.
                   </p>
                   <div className="flex items-center text-sm text-gray-500 mb-6">
@@ -218,7 +218,7 @@ export default function BlogPage() {
             Need Personalized Dental Care?
           </h2>
           <p className="text-lg text-accent-600 font-medium mb-8">
-            Our experienced team specializes in providing compassionate, specialized dental care for patients
+            Our experienced team excels in providing compassionate, excellent dental care for patients
             with special needs, dental anxiety, and unique requirements.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
