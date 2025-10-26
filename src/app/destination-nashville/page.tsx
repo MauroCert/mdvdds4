@@ -82,6 +82,15 @@ export default function DestinationNashvillePage() {
 
             {/* Carol Andrews Section */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="relative flex justify-center lg:justify-start">
+                <Image
+                  src="/destination_nashville/carol_andrews.jpeg"
+                  alt="Carol Andrews - Andrews Travel"
+                  width={400}
+                  height={600}
+                  className="w-full max-w-md h-[500px] object-cover object-top rounded-lg shadow-lg"
+                />
+              </div>
               <div className="space-y-6">
                 <h3 className="text-2xl font-semibold text-gray-900">Meet Your Travel Partner</h3>
                 <p className="text-lg text-gray-700 leading-relaxed">
@@ -93,11 +102,6 @@ export default function DestinationNashvillePage() {
                 <p className="text-gray-700 leading-relaxed">
                   Whether you know exactly where you want to go or need help finding the perfect destination, Andrews Travel is with you every step of the way — before, during, and after your trip.
                 </p>
-              </div>
-              <div className="relative">
-                <div className="w-full h-96 bg-gray-100 rounded-lg shadow-lg flex items-center justify-center">
-                  <p className="text-gray-400 text-center px-8">Carol Andrews photo<br/>to be added</p>
-                </div>
               </div>
             </div>
           </div>
