@@ -106,7 +106,7 @@ export default function SedationDentistryPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/sedation-dentistry/Sedation Dentistry-min.jpg"
+                  src="/services/sedation-dentistry/nurse-putting-oxygen-mask-patient (2).jpg"
                   alt="Sedation Dentistry - Comfortable Care"
                   width={600}
                   height={400}

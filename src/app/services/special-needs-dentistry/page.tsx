@@ -17,7 +17,7 @@ const patientTypes = [
       "Visual aids and social stories for preparation",
       "Specialized communication strategies"
     ],
-    image: "/services/Special Needs Dentistry page/cheerful-kid-min.jpg"
+    image: "/services/Special Needs Dentistry page/dentist-treats-childs-tooth-using-rubber-dam-closeup-tooth-treatment (2).jpg"
   },
   {
     title: "Patients with Mental Challenges",
@@ -106,7 +106,7 @@ export default function SpecialNeedsDentistryPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/Special Needs Dentistry page/Special needs dentistry -min.jpg"
+                  src="/services/Special Needs Dentistry page/woman-dental-chair-girl-is-examined-by-dentist-beauty-treats-her-teeth (1).jpg"
                   alt="Special Needs Dentistry - Specialized Care"
                   width={600}
                   height={400}

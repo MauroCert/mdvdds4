@@ -106,7 +106,7 @@ export default function DentalExamsCleaningsPage() {
             <div className="relative">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden">
                 <Image
-                  src="/services/dental-exams-cleanings/Dental exams and Cleanings-min.JPG"
+                  src="/services/dental-exams-cleanings/Dental exams and Cleanings-min.png"
                   alt="Dental Exams & Cleanings - Comprehensive Care"
                   width={600}
                   height={400}
