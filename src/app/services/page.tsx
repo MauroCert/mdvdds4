@@ -24,7 +24,7 @@ const services = [
   {
     title: "Dental Exams & Cleanings",
     description: "Comprehensive dental examinations and professional cleanings in an accessible environment designed to accommodate patients with special needs and sensory sensitivities.",
-    image: "/services_pictures/Dental exams and Cleanings.jpg",
+    image: "/services/dental-exams-cleanings/Dental exams and Cleanings-min.png",
     href: "/services/dental-exams-cleanings",
     featured: true,
   },
