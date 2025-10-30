@@ -6,13 +6,13 @@ const services = [
   {
     title: "Special Needs Dentistry",
     description: "Excellent dental care for patients with neurodivergence, intellectual disabilities, physical challenges, and dental anxiety. One of only two practices in Middle Tennessee offering comprehensive special needs dentistry with sedation options.",
-    image: "/services_pictures/Special needs dentistry .jpg",
+    image: "/services/Special Needs Dentistry page/woman-dental-chair-girl-is-examined-by-dentist-beauty-treats-her-teeth (1).jpg",
     href: "/services/special-needs-dentistry",
   },
   {
     title: "Sedation Dentistry",
     description: "Safe and effective sedation options including oral sedation, nitrous oxide, and IV sedation to help patients with anxiety receive dental care in a comfortable, relaxed state.",
-    image: "/services_pictures/Sedation Dentistry.jpg",
+    image: "/services/sedation-dentistry/nurse-putting-oxygen-mask-patient (2).jpg",
     href: "/services/sedation-dentistry",
   },
   {

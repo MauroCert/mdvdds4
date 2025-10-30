@@ -96,10 +96,10 @@ export default function DestinationNashvillePage() {
                 <p className="text-lg text-gray-700 leading-relaxed">
                   <strong>Carol Andrews</strong>, owner of <Link href="https://www.andrewstravel.com" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:text-teal-700 underline">Andrews Travel</Link>, has over 13 years of experience crafting unforgettable travel experiences around the world. As a proud member of the Virtuoso network, she offers clients exclusive perks and amenities at top hotels, cruise lines, and tour operators, often at no extra cost.
                 </p>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed">
                   Carol curates personalized itineraries for everything from extended international vacations to family adventures and weekend getaways. A native Nashvillian, she also helps visitors experience the best of Nashville and its surrounding areas.
                 </p>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed">
                   Whether you know exactly where you want to go or need help finding the perfect destination, Andrews Travel is with you every step of the way — before, during, and after your trip.
                 </p>
               </div>
